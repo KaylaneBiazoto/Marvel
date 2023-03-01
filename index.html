@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="font.css" />
+    <link rel="stylesheet" href="animacoes.css" />
+    <script src="script.js" defer></script>
+    <title>Choose your character</title>
+  </head>
+  <body>
+    <main>
+      <header class="cabecalho">
+        <h1 class="title">Character Select</h1>
+      </header>
+
+      <section class="selection">
+        <div class="big-character player-1">
+          <img
+            src="./Assets/thor.png"
+            id="character-player-1"
+            alt="Personagem selecionado para o jogador 1"
+          />
+
+          <div class="name">
+            <h2 id="nome-personagem">Thor</h2>
+          </div>
+        </div>
+
+        <ul class="character-list">
+          <li class="character selected" id="thor" data-name="Thor">
+            <span class="tag"> 1P </span>
+            <img src="./Assets/thor.jpg" alt="Personagem Thor" />
+          </li>
+
+          <li class="character" id="homem-de-ferro" data-name="Iron Man">
+            <span class="tag"> 1P </span>
+            <img
+              src="./Assets/homem-de-ferro.jpg"
+              alt="Personagem Homem de Ferro"
+            />
+          </li>
+
+          <li
+            class="character"
+            id="capitao-america"
+            data-name="Captain America"
+          >
+            <span class="tag"> 1P </span>
+            <img
+              src="./Assets/capitao-america.jpg"
+              alt="Personagem Capitão America"
+            />
+          </li>
+
+          <li class="character" id="doutor-doom" data-name="Doctor Doom">
+            <span class="tag"> 1P </span>
+            <img src="./Assets/doutor-doom.jpg" alt="Personagem Doutor Doom" />
+          </li>
+
+          <li class="character" id="fenix" data-name="Phoenix">
+            <span class="tag"> 1P </span>
+            <img src="./Assets/fenix.jpg" alt="Personagem Fenix" />
+          </li>
+
+          <li class="character" id="hulk" data-name="Hulk">
+            <span class="tag"> 1P </span>
+            <img src="./Assets/hulk.jpg" alt="Personagem Hulk" />
+          </li>
+
+          <li class="character" id="nova" data-name="Nova">
+            <span class="tag"> 1P </span>
+            <img src="./Assets/nova.jpg" alt="Personagem Nova" />
+          </li>
+
+          <li class="character" id="viuva-negra" data-name="Black Widow">
+            <span class="tag"> 1P </span>
+            <img src="./Assets/viuva-negra.jpg" alt="Personagem Viúva Negra" />
+          </li>
+
+          <li
+            class="character player-2-selected"
+            id="ultron"
+            data-name="Ultron"
+          >
+            <span class="tag"> 2P </span>
+            <img src="./Assets/ultron.jpg" alt="Personagem Ultron" />
+          </li>
+        </ul>
+
+        <div class="big-character player-2">
+          <img
+            src="./Assets/ultron.png"
+            id="character-player-2"
+            alt="Personagem selecionado para o jogador 2"
+          />
+          <div class="name">
+            <h2>Ultron</h2>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
